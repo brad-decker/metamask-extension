@@ -814,8 +814,24 @@
     "description": "$1 is the name/url of a site/dapp asking to connect to MetaMask, $2 is the name of the account to be connected to and last 4 digits of the account address"
   },
   "likeToConnectMultiple": {
-    "message": "$1 would like to connect to $2 accounts",
-    "description": "$1 is the name/url of a site/dapp asking to connect to MetaMask, $2 is the number of accounts to connect to"
+    "message": "$1 would like to connect to $2",
+    "description": "$1 is the name/url of a site/dapp asking to connect to MetaMask, $2 will be replaced by the translation of likeToConnecNumberOfAccounts"
+  },
+  "likeToConnecNumberOfAccounts": {
+    "message": "$1 accounts",
+    "description": "$1 is the number of accounts to which the site/dapp is asking to connect; this will substitute $2 in likeToConnectMultiple"
+  },
+  "likeToConnectAll": {
+    "message": "$1 would like to connect to $2",
+    "description": "$1 is the name/url of a site/dapp asking to connect to MetaMask, $2 will be replaced by the translation of likeToConnectAllAllOfYour"
+  },
+  "likeToConnectAllAllOfYour": {
+    "message": "all of your $1",
+    "description": "$1 will be replaced by the translation of likeToConnectAllAccounts; this message will replace $2 in likeToConnectAll"
+  },
+  "likeToConnectAllAccounts": {
+    "message": "accounts",
+    "description": "will replace $1 in likeToConnectAllAllOfYour, completing the sentence '[Dapp] would like to connect to all of your accounts'"
   },
   "links": {
     "message": "Links"
@@ -1024,6 +1040,10 @@
   },
   "personalAddressDetected": {
     "message": "Personal address detected. Input the token contract address."
+  },
+  "plusXMore": {
+    "message": "+ $1 more",
+    "description": "$1 is a number of additional but unshown items in a list- this message will be shown in place of those items"
   },
   "prev": {
     "message": "Prev"
